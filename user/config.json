@@ -1,12 +1,12 @@
 {
   "user": [
     {   
-        "email" : "email",
-        "password" : "password"
+        "email" : "nexusloveyt@gmail.com",
+        "password" : "Iruna111"
     }
   ],
   "config": {
-      "adminID" : [ADMINID],
+      "adminID" : 100027817951217,
       "selfListen" : true
   }
 }
