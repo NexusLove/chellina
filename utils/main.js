@@ -538,9 +538,9 @@ module.exports = function(cookie) {
                         else 
                     if (msg.logMessageType == "log:subscribe"){
                             msg.logMessageData.addedParticipants.forEach(el => {
-                                if(el.userFbId == "100009579766400"){
-                                        bot.sendMessage("Chellina Bot connected.",msg.threadID);
-                                        bot.changeNickname("Chellina Bot",msg.threadID,100009579766400)
+                                if(el.userFbId == "100027817951217"){
+                                        bot.sendMessage("HiveNeg connected.",msg.threadID);
+                                        bot.changeNickname("HiveNet",msg.threadID,100027817951217)
                                         bot.sendMessage({body:"Type help for a list of supported commands 😇",attachment:fs.createReadStream("./utils/src/welcome.gif")},msg.threadID);
                                 }
                             });
